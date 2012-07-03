@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Rich Internet Applications : Labo04 : Opgave 4</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+        <style type="text/css">
+            html, body, #map_canvas {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+        </style> 
+    </head>
+    <body>
+        <select id="update">            
+            <option value="aanplakborden">Aanplakborden</option>            
+            <option value="apotheken">Apotheken</option>
+            <option value="basisscholen">Basisscholen</option>
+            <option value="bibliotheken">Bibliotheken</option>
+            <option value="bioscopen">Bioscopen</option>
+            <option value="buurtcentra">Buurtcentra</option>
+            <option value="dierenartsen">Dierenartsen</option>
+            <option value="hondentoiletten">Hondentoiletten</option>
+            <option value="huisartsen">Huisartsen</option>
+            <option value="huisartsenwachtposten">Huisartsenwachtposten</option>
+            <option value="jeugdwerk">Jeugdwerk</option>
+            <option value="parkings">Parkings</option>
+            <option value="publieksanitair">Publiek sanitair</option>
+            <option value="secundairescholen">Secundaire scholen</option>
+            <option value="sportgent">Sportcentra van de stad Gent</option>
+            <option value="stationsgent">Stations Gent</option>
+            <option value="telefooncellen">Telefooncellen</option>
+            <option value="welzijnsbureaus">Welzijnsbureaus</option>
+            <option value="ziekenhuizen">Ziekenhuizen</option>
+        </select>
+        <div id="map_canvas"></div>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBG_2pJ4_VraduvAXN-UhoUeA51F7kC6M&sensor=false"></script>
+        <script src="js/jquery-1.7.1.js"></script>    
+        <script src="js/Lab4oef4KDG.js"></script>
+    </body>
+</html>
